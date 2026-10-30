@@ -1,0 +1,12 @@
+Pay Auction (Fabric, Minecraft 1.21.11, nur Client)
+
+Taste U oeffnet das Auktionsmenue (in den Steuerungen aenderbar).
+
+Ablauf: Name + Startgebot eingeben -> "Auktion starten" -> 60 s lang werden
+Pay-Nachrichten im Chat ausgewertet -> Ergebnis-Menue mit Button "/tpa Gewinner".
+
+Dateien im config-Ordner:
+  payauction-config.json   Dauer, Sounds, Chat-Muster (Regex)
+  payauction-history.json  gespeicherte Auktionen mit allen Geboten
+
+Die Mod bucht kein Geld ab und fuehrt keine Pay-Befehle aus.

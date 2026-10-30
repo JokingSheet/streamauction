@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "payauction",
+  "version": "${version}",
+  "name": "Pay Auction",
+  "description": "1-Minuten-Auktion per GUI. Erkennt Pay-Nachrichten im Chat und ermittelt den Hoechstbieter.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.payauction.PayAuctionClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
